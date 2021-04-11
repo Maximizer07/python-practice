@@ -6,7 +6,7 @@ def method1(text):
     a = []
     i = 0
 
-    with open('letters.txt') as file:
+    with open('source/letters.txt') as file:
         lines1 = file.read()
         lines2 = lines1.split('@@')
     lines2.pop()
