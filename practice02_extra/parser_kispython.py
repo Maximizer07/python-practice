@@ -6,7 +6,7 @@ from yattag import Doc
 letters = ['К', 'В', 'М', 'Н']
 maxCount = [25, 13, 2, 10]
 groups_id = {'К': -1, 'В': 24, 'М': 37, 'Н': 39}
-task_id = {'f11': 1, 'f12': 2, 'f13': 3, 'f14': 4, 'f21': 5, 'f22': 6, 'f23': 7, 'f31': 8, 'f32': 9}
+task_id = {'f11': 1, 'f12': 2, 'f13': 3, 'f14': 4, 'f21': 5, 'f22': 6, 'f23': 7, 'f31': 8, 'C32': 9}
 indent = ''
 doc, tag, text = Doc().tagtext()
 '''
